@@ -1,7 +1,7 @@
 # MLSC-First-Year-Task-Projects
 
-## This Reporsitory is being setup for projects, which are being developed by first year students as their first task in what ever domain they are studying about
-
+### This Reporsitory is being setup for projects, which are being developed by first year students as their first task in what ever domain they are studying about
+### Don't Forget to star the repository🙂
 ### Steps to Push your project
 1) Fork the repository
 2) Clone it to your local machine
