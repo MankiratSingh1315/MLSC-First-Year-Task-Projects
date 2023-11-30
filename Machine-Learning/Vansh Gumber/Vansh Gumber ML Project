@@ -1,0 +1,24 @@
+import pandas as pd
+import scipy as sc
+import numpy as np
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+df = pd.read_csv('housing.csv')
+num = df.select_dtypes(include=[np.number]).columns
+scores = sc.stats.zscore(df[num])
+outliers = (np.abs(scores) > 0.9).all(axis=1)
+data = df[~outliers]
+array = data.values
+transposed = np.transpose(array)
+X = array[:,0:8]
+y = array[:,8]
+print(round(data.corr(),2))
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2 , random_state=1)
+model = LinearRegression()
+model.fit(X_train, y_train)
+res = model.predict(X_test)
+score = r2_score(y_test,res)
+print(score)
