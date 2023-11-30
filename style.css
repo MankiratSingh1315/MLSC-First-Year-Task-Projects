@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transform: rotate(45 deg);
+}
+div:hover{
+    background-color: black;
+    color: white ;
+}
