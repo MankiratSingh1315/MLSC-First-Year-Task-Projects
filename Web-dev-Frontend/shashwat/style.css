@@ -1,0 +1,129 @@
+button{
+    background-color:C78283;
+     margin:5px;
+     border-radius:90px;
+     height:105px;
+     width:120px;
+     border-width: 5px;
+     border-color:transparent;
+ }
+ #result{
+     width:520px;
+     background-color:B49286;
+     border-color:transparent;
+     border-radius:15px;
+     
+ }
+ .forac{
+     font-size:25px;  
+     color:aliceblue;
+ }
+ #acc{
+     background-color:744253;
+ }
+ div{
+     width:533px;
+     background-color:rgb(255,205,225);
+     border-radius:20px;
+     border-width:2px;
+     border-color:black;
+     transition-property:all;
+ }
+ input{
+     font-size:45px;
+     border-radius:10px;
+     border-color:transparent;
+ }
+ #acc:hover{
+     width:120;
+     height:90;
+     background-color: 0a9396;
+     transition-duration:0.25s;
+ 
+ }
+ 
+ #f1:hover{
+     width:120;    background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f2:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f3:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f4:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f5:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f6:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f7:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f8:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f9:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#f0:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#fdot:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#feq:hover{
+     width:120; background-color:9d4edd;
+     height:90;    transition-duration:0.25s;
+ 
+ }#fmod:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }#fb1:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #fb2:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #fdiv:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #fmul:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #fmin:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #fplu:hover{
+     width:120; background-color:89023e;
+     height:90;    transition-duration:0.25s;
+ 
+ }
+ #display{
+     width:500px;
+ }
