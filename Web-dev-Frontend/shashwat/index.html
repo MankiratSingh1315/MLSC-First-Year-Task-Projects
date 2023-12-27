@@ -1,0 +1,94 @@
+<center>
+    <link rel="stylesheet" href="style.css">
+    <div>
+    <button id="result"><input type="text" id="display" readonly></button>
+    
+    
+    
+    
+    <p>
+        <button id="acc" onclick="currentDis='';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">AC</a></button>
+        <button id="fb1" onclick="currentDis+='(';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">( </a></button>
+        <button id="fb2" onclick="currentDis+=')';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">)</a></button>
+        <button id="fdiv" onclick="currentDis+='/';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">/</a></button>
+    
+    
+    
+    </p>
+    <p>
+    <button id="f7" onclick="currentDis+='7';
+    document.querySelector('#display').value=currentDis;
+    "><a class="forac">7</a></button>
+    <button id="f8" onclick="currentDis+='8';
+    document.querySelector('#display').value=currentDis;
+    "><a class="forac">8</a></button>
+    <button id="f9" onclick="currentDis+='9';
+    document.querySelector('#display').value=currentDis;
+    "><a class="forac">9</a></button>
+    <button id="fmul" onclick="currentDis+='*';
+    document.querySelector('#display').value=currentDis;
+    "><a class="forac">*</a></button>
+    
+    </p>
+    <p>
+        <button id="f4" onclick="currentDis+='4';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">4</a></button>
+        <button id="f5" onclick="currentDis+='5';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">5</a></button>
+        <button id="f6" onclick="currentDis+='6';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">6</a></button>
+        <button id="fmin" onclick="currentDis+='-';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">-</a></button>
+    
+    </p>
+    <p>
+        <button id="f1" onclick="currentDis+='1';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">1</a></button>
+        <button id="f2" onclick="currentDis+='2';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">2</a></button>
+        <button id="f3" onclick="currentDis+='3';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">3</a></button>
+        <button id="fplu" onclick="currentDis+='+';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">+</a></button>
+        
+    
+    </p>
+    <button id="f0" onclick="currentDis+=0;
+    document.querySelector('#display').value=currentDis;
+    "><a class="forac">0</a></button>
+        <button id="fdot" onclick="currentDis+='.';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">.</a></button>
+        <button id="fmod" onclick="currentDis+='%';
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">%</a></button>
+        
+        <button id="feq" onclick="
+        let result=eval(currentDis);
+        currentDis=result;
+        document.querySelector('#display').value=currentDis;
+        "><a class="forac">=</a></button>
+    
+    
+    </div>
+    <script>
+        let currentDis='';
+        document.querySelector('#display').value=currentDis;
+        </script>
+    </center>         
