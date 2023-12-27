@@ -1,7 +1,10 @@
-import 'package:basic_login_app/login_page.dart';
+import 'package:basic_login_app/widget_tree.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Basic Login App',
-      home: LoginPage(),
+      home: WidgetTree(),
     );
   }
 }

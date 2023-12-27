@@ -1,5 +1,7 @@
 import 'package:basic_login_app/login_page.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '../auth.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -9,6 +11,24 @@ class SignUpPage extends StatefulWidget {
 }
 
 class _SignUpPageState extends State<SignUpPage> {
+  String? errorMessage = "";
+
+  final TextEditingController _controllerEmail = TextEditingController();
+  final TextEditingController _controllerPassword = TextEditingController();
+
+  Future<void> createUserWithEmialAndPassword() async {
+    try {
+      await Auth().createUserWithEmialAndPassword(
+        email: _controllerEmail.text,
+        password: _controllerPassword.text,
+      );
+    } on FirebaseAuthException catch (e) {
+      setState(() {
+        errorMessage = e.message;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,7 +80,9 @@ class _SignUpPageState extends State<SignUpPage> {
 
   TextButton signUpButton() {
     return TextButton(
-      onPressed: () {},
+      onPressed: () {
+        createUserWithEmialAndPassword();
+      },
       style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all(
         Colors.amber,
