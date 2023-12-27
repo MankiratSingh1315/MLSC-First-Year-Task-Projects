@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:basic_login_app/signup_page.dart';
 import 'package:flutter/material.dart';
 
