@@ -43,8 +43,8 @@ class _LoginPageState extends State<LoginPage> {
             margin: const EdgeInsets.only(top: 100, bottom: 30),
             child: Column(
               children: [
-                textField("Email"),
-                textField("Password"),
+                textFieldEmail(),
+                textFieldPassword(),
               ],
             ),
           ),
@@ -106,13 +106,33 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Container textField(hint) {
+  Container textFieldEmail() {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
       child: TextField(
+        controller: _controllerEmail,
         style: const TextStyle(color: Colors.black),
         decoration: InputDecoration(
-            hintText: hint,
+            hintText: "Email",
+            filled: true,
+            fillColor: Colors.white,
+            contentPadding: const EdgeInsets.all(15),
+            border: OutlineInputBorder(
+              borderSide: BorderSide.none,
+              borderRadius: BorderRadius.circular(15),
+            )),
+      ),
+    );
+  }
+
+  Container textFieldPassword() {
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+      child: TextField(
+        controller: _controllerPassword,
+        style: const TextStyle(color: Colors.black),
+        decoration: InputDecoration(
+            hintText: "Password",
             filled: true,
             fillColor: Colors.white,
             contentPadding: const EdgeInsets.all(15),
