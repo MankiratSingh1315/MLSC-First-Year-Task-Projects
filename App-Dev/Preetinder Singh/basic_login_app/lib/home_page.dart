@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: appBar(),
       bottomNavigationBar: bottomNavbar(),
-      // backgroundColor: Colors.black,
+      backgroundColor: Colors.black,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
