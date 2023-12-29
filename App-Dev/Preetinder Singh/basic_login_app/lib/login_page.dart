@@ -1,3 +1,4 @@
+import 'package:basic_login_app/home_page.dart';
 import 'package:basic_login_app/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -82,6 +83,10 @@ class _LoginPageState extends State<LoginPage> {
     return TextButton(
       onPressed: () {
         signInWithEmailAndPassword();
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => HomePage()),
+        );
       },
       style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all(

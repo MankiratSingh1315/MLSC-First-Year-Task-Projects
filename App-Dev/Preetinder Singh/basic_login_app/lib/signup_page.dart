@@ -2,6 +2,7 @@ import 'package:basic_login_app/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../auth.dart';
+import 'home_page.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -82,6 +83,10 @@ class _SignUpPageState extends State<SignUpPage> {
     return TextButton(
       onPressed: () {
         createUserWithEmialAndPassword();
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => HomePage()),
+        );
       },
       style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all(
