@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.button button{
+    margin: 6px 3px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+.row input{
+    margin: 5px;
+    padding: 6px;
+    width: 173px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.out{
+    background: #585252;
+    width: 297px;
+    margin: auto;
+    padding: 1px ;
+    border-radius: 50px;
+    height: 376px ;
+}
