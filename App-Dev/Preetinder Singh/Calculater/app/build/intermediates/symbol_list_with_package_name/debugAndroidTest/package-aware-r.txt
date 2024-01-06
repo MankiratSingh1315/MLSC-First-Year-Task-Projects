@@ -1,3 +1,0 @@
-com.example.calculater.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

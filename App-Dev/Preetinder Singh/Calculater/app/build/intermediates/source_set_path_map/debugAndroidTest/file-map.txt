@@ -1,6 +1,0 @@
-com.example.calculater.test.app-core-1.5.0-0 C:\Users\HP 212\.gradle\caches\transforms-3\4b1f0787700ccd7ac6c94a26acbfa747\transformed\core-1.5.0\res
-com.example.calculater.test.app-annotation-experimental-1.3.0-1 C:\Users\HP 212\.gradle\caches\transforms-3\70d510d1ea77f94adf002972dd3d1d16\transformed\annotation-experimental-1.3.0\res
-com.example.calculater.test.app-androidTest-2 C:\Users\HP 212\AndroidStudioProjects\Calculater\app\build\generated\res\resValues\androidTest\debug
-com.example.calculater.test.app-mergeDebugAndroidTestResources-3 C:\Users\HP 212\AndroidStudioProjects\Calculater\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.calculater.test.app-mergeDebugAndroidTestResources-4 C:\Users\HP 212\AndroidStudioProjects\Calculater\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.calculater.test.app-merged_res-5 C:\Users\HP 212\AndroidStudioProjects\Calculater\app\build\intermediates\merged_res\debugAndroidTest
