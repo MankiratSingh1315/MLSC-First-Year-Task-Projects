@@ -1,0 +1,115 @@
+body
+{
+    background-color: #A6E1FA;
+    
+}
+
+.top
+{
+    text-align: center;
+    font-family: 'Segoe Ui';
+    font-size: 40px;
+    font-weight: bold;
+    color: #002e8a;
+}
+
+.form-cont
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.tab
+{
+    align-items: center;
+    justify-content: center;
+    background-color: #0A2472;
+    
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    row-gap: 5px;
+    margin: 10px;
+    padding-top: 27px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.space
+{
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+} 
+
+.input-sp
+{
+    width:205px;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00072d;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.cal
+{
+    
+    /* background-color: peru; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A,.B,.C,.D
+{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    column-gap: 5px;
+}
+
+.E
+{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50px 50px 105px;
+    column-gap: 5px;
+}
+
+.dot
+{
+    text-align: center;
+    height: 50px;
+    background-color: #2e8fd0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.dot:active
+{
+    font-size: 14px;
+}
+
+
+.anu
+{
+    margin-top: 70px;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    font-family: 'Segoe Ui';
+    color: #002e8a;
+}
+
